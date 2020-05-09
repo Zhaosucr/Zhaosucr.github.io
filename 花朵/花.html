@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>母亲节快乐！！！</title>
+        <link rel="shortcut icon" href="花.png" type="image/x-icon"/>
+        <style type=text/css>
+        .div{ /* 排版元素*/
+            text-align: center;/* 居中*/
+            }
+        .img{
+            width:300px;
+            height: 300px;
+            margin-top:150px ; /* 离边界顶部150px*/
+            }
+        
+        html:hover .img {  /* html:hover  鼠标在全屏范围 */
+            animation-name:img ;
+            animation-duration: 1s;
+            animation-delay: 500ms;
+            animation-fill-mode: forwards; /* 变化后保持*/
+        }
+        @keyframes img {
+            to { 
+                width: 50px;
+            height:50px;
+            margin-top: 0px;
+            }
+        }
+        #abc{ /* 排版元素*/
+            text-align: center;/* 居中*/
+            }
+        #cba{
+            width:1px;
+            height: 1px;
+            margin-top:150px ;
+            /* 离边界顶部150px*/
+            }
+        
+        html:hover #cba {  /* html:hover  鼠标在全屏范围 */
+            animation-name:asd ;
+            animation-duration: 1s;
+            animation-delay: 500ms;
+            animation-fill-mode: forwards; /* 变化后保持*/
+        }
+        @keyframes asd {
+            to { 
+                width: 500px;
+            height:400px;
+            margin-top: 1px;
+            align: center;
+            }
+        }
+        a{
+        font-size:30px;
+        font-style: italic;
+        color: red;
+        opacity:1;   /* 不透明度*/
+       text-align: center;
+    }
+    html:hover a 
+    {   font-size:10px;
+        transition-delay: 500ms;
+        transition-duration: 1s; 
+        opacity:0;}
+
+        </style>
+    </head>
+    <body>
+    <div class="div" >
+        <img class="img"  src=花.png > 
+    </div>
+    <a href=mama2.jpg target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(｡･ω･｡)ﾉ♡<br> &nbsp;&nbsp;&nbsp;&nbsp;给我们最好的妈妈</a>
+    <div id="abc" >
+        <img id="cba"  src=花花.png > 
+        
+    </div>
+    
+    
+    </body>
+</html>
