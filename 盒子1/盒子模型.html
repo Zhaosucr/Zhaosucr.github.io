@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>创建盒子模型</title>
+        <style type=text/css>
+        .div{
+            border: 2px solid yellow;
+            background-color: aqua;
+            color:brown;
+            text-align:center;
+            padding:10px; 
+            /* 填充区（边框与内容的间隔），padding:10px 8px;为上下边10px，左右边8px；
+                padding:10px 8px 6px 4px;为顺时针，上右下左；
+              也可以用padding-top 等具体的操作
+            PS：边框及边界 也可顺时针*/
+            background-clip: content-box; 
+            /* 背景作用于 内容区 ，才不影响到填充区 */
+            margin:20px; /* 边界区，边界到边框的空间 */
+        }
+        </style>
+    </head>
+    <body>
+     <div class="div" >靠谱学院</div>
+     <form>
+         <input type=image src=盒子1.png width=500px >
+         <input type=image src=盒子2.png width=500px >
+     </form>
+     
+    </body>
+    </html>
